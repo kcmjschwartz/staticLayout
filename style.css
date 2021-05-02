@@ -32,14 +32,14 @@
     grid-column-gap: 20px;
     justify-content: flex-end;
 }
-
+/* 
 .premium{
-    transition: transform 1s
+    transition: transform 1s;
 }
 
 .premium:hover{
 
-}
+} */
 
 .kastLogo{
     position: relative;
