@@ -15,10 +15,10 @@
     
     
 }
-/* needs animation for changing color once scrolled out of container and for hyperlink on Premium */
+
 .topnav {
     position: relative;
-    left:450px;
+    
     top:26px;
     padding: 0px;
     background-color: transparent;
@@ -30,16 +30,28 @@
     display: grid;
     grid-template-columns: 80px 80px 120px 100px;
     grid-column-gap: 20px;
+    justify-content: flex-end;
+}
+
+.premium{
+    transition: transform 1s
+}
+
+.premium:hover{
 
 }
-/* needs animation for hover pop */
+
 .kastLogo{
     position: relative;
     float: left;
     margin-top: 26px;
     margin-left: 25px;
     padding: 0px;
-    
+    transition: transform 1s;
+}
+
+.kastLogo:hover {
+    transform: scale(1.05);
 }
 
 .openKastButton{
@@ -52,9 +64,13 @@
     margin-right: 5px;
     padding: 0px;
     background-color:transparent;
-  
+    transition: transform 1s;
 }
-/* needs animation for hover pop */
+
+.openKastButton:hover {
+    transform: scale(1.05);
+}
+
 .openKastButton button {
     width: 104px;
     height: 27px;
@@ -63,6 +79,7 @@
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+
 }
 
 
@@ -116,7 +133,7 @@
     color: #fff;
 
 }
-/* needs animation for hover pop */
+
 .openKastButton2 button{
     width: 215px;
     height: 45px;
@@ -128,7 +145,15 @@
     font-weight: 600;
     line-height: 1.4;
     color: #fff;
+    transition: transform 1s;
 }
+
+.openKastButton2 button:hover {
+    transform: scale(1.05);
+}
+
+
+
 
 .section2Container {
     position: relative;
